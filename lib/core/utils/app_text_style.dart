@@ -3,7 +3,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'app_color.dart';
 class AppTextStyle {
-  static TextStyle get inter32w700 =>  TextStyle(
+
+  static TextStyle get inter32w700Black1A =>  TextStyle(
     fontFamily: "Inter",
     fontSize: 32.sp,
     fontWeight: FontWeight.w700,
@@ -21,6 +22,13 @@ class AppTextStyle {
     fontWeight: FontWeight.w600,
     color: AppColor.black1A,
   );
+  static TextStyle get inter14w600Black7d => TextStyle(
+    fontFamily: "Inter",
+    fontSize: 14.sp,
+    fontWeight: FontWeight.w400,
+    color: AppColor.black7d,
+  );
+
   static TextStyle get inter12w600Blue => TextStyle(
     fontFamily: "Inter",
     fontSize: 12.sp,

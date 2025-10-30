@@ -47,7 +47,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 SizedBox(height: 32.h,),
                 Text(
                   'Sign in to your \nAccount',
-                  style:AppTextStyle.inter32w700
+                  style:AppTextStyle.inter32w700Black1A
                 ),
                 SizedBox(height:12.h),
                 Text(

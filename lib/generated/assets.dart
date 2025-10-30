@@ -8,5 +8,6 @@ class Assets {
   static const String imageLogoAll = 'assets/image/Logo_all.svg';
   static const String imageLogoIcon = 'assets/image/logo_icon.svg';
   static const String imageLogoText = 'assets/image/logo_text.svg';
+  static const String imageUnitedKingdom = 'assets/image/united_kingdom.svg';
 
 }

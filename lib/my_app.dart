@@ -2,6 +2,8 @@ import 'package:challenge/feature/auth/presentation/screen/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import 'feature/auth/presentation/screen/sign_up_screen.dart';
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -13,7 +15,7 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Daily Ui Challenges',
-      home: LoginScreen(),
+      home: SignUpScreen(),
       ),
     );
   }

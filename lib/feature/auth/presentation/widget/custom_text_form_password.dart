@@ -2,6 +2,8 @@ import 'package:challenge/core/utils/valid_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import '../../../../core/utils/app_text_style.dart';
+
 class CustomTextFormPassword extends StatefulWidget {
   const CustomTextFormPassword({
     super.key, this.controller,
@@ -27,8 +29,14 @@ class _CustomTextFormPasswordState extends State<CustomTextFormPassword> {
               color: Color(0xffEDF1F3),
             ),
           ),
+          enabledBorder: OutlineInputBorder(
+            borderRadius: BorderRadius.circular(8).r,
+            borderSide: BorderSide(color: Color(0xffEDF1F3)),
+
+          ),
           contentPadding: EdgeInsets.symmetric(horizontal:16.w, vertical: 12.h),
           hintText: 'Enter your password',
+          hintStyle: AppTextStyle.inter12w500Gray,
           suffixIcon: GestureDetector(
             onTap: (){
               setState(() {
